@@ -7,3 +7,11 @@ Why is Python easier/faster for building the same project?
 Python is easier and faster because we can just write simple commands like print() or x = a + b.
 Which features of Python help abstraction (variables, functions, loops)?
 Python has variables that let us store numbers or text , so we can focus on solving the problem not on controlling the machine step by step.
+
+ Comparison Table
+
+| Feature           | Assembly Example   | Python Example | Notes |
+|-------------------|--------------------|----------------|-------|
+| **Variable storage** | `Register (EAX)`   | `x = 5`        | Assembly stores values directly in registers; Python manages variables in memory. |
+| **Printing output**  | `INT 21h`          | `print()`       | Assembly requires interrupt calls for system-level I/O; Python uses built-in functions. |
+| **Arithmetic**       | `ADD AX, BX`       | `x + y`        | Assembly operates on registers directly; Python abstracts arithmetic with operators. |
